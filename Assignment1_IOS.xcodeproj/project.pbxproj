@@ -14,6 +14,7 @@
 		0F32953E2CBCF32900E86BA5 /* Assignment1_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F32953D2CBCF32900E86BA5 /* Assignment1_IOSTests.swift */; };
 		0F3295482CBCF32900E86BA5 /* Assignment1_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3295472CBCF32900E86BA5 /* Assignment1_IOSUITests.swift */; };
 		0F32954A2CBCF32900E86BA5 /* Assignment1_IOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3295492CBCF32900E86BA5 /* Assignment1_IOSUITestsLaunchTests.swift */; };
+		0F3295572CBD049900E86BA5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3295562CBD049900E86BA5 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		0F3295432CBCF32900E86BA5 /* Assignment1_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3295472CBCF32900E86BA5 /* Assignment1_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1_IOSUITests.swift; sourceTree = "<group>"; };
 		0F3295492CBCF32900E86BA5 /* Assignment1_IOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1_IOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F3295562CBD049900E86BA5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				0F32952B2CBCF32700E86BA5 /* Assignment1_IOSApp.swift */,
 				0F32952D2CBCF32700E86BA5 /* ContentView.swift */,
+				0F3295562CBD049900E86BA5 /* HomeView.swift */,
 				0F32952F2CBCF32800E86BA5 /* Assets.xcassets */,
 				0F3295312CBCF32800E86BA5 /* Assignment1_IOS.entitlements */,
 				0F3295322CBCF32800E86BA5 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F3295572CBD049900E86BA5 /* HomeView.swift in Sources */,
 				0F32952E2CBCF32700E86BA5 /* ContentView.swift in Sources */,
 				0F32952C2CBCF32700E86BA5 /* Assignment1_IOSApp.swift in Sources */,
 			);
